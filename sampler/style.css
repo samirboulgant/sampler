@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#C70039 ;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.6);
+    padding: 0px 5%;
+    position: fixed;
+    width: 100%;
+    z-index:3;
+    
+}
+nav ul{
+    display: flex;
+    margin-right: 150px;
+}
+nav ul li a{
+    margin:30px;
+    font-family: sans-serif;
+    color :#C70039;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px;
+}
+nav ul li a:hover{
+    padding: 15px;
+    background-color: #eee;
+}
+.logo{
+    font-family:arial;
+    color: #000000;
+    font-size: 22px;
+}
+.Active{
+    font-weight: bold;
+    color: #2d2a2a;
+}
+.container p:nth-child(1){
+    font-family:monospace;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+    
+}
+.container p:nth-child(2){
+    letter-spacing: 1px;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 60px;
+    color: #1a1a1a;
+    
+}
+.container p:nth-child(3){
+    color: #088A85;
+    letter-spacing: 1px;
+    font-family: fantasy;
+    font-size: 30px;
+    line-height: 30px;
+    
+}
+.container p{
+    line-height: 50px;
+    margin: 45px 0px 25px;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.me{
+    margin-left: 15px;
+    height: 400px;
+    width:  25%;
+    border-radius: 50%;
+}
+.ppp{
+    position: absolute;
+    margin-right: 120px;
+    letter-spacing: 1px;
+    padding: 70px;
+    left: 30%;
+    bottom: -45%;
+    border: 1px solid black;
+    background-color: sandybrown;   
+}
+
+.contact{
+    margin-top: -200px;
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 50%;
+    margin-left: 24%;
+    margin-bottom: 100px;
+}
+footer{
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
